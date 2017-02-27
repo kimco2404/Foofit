@@ -1,3 +1,3 @@
 <?php
 
-Route::get('/','Fit_tdc\Sample\Controllers\SampleController@index');
+Route::get('/','Fit_tdc\Sample\Controllers\SampleController@index');as
