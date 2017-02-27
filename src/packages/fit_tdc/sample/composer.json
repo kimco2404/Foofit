@@ -1,0 +1,11 @@
+{
+    "name": "fit_tdc/sample",
+    "description": "Create a project demo",
+    "authors": [
+        {
+            "name": "Duong-Co-Phat-Au",
+            "email": "minhduong.zaro@gmail.com"
+        }
+    ],
+    "require": {}
+}
