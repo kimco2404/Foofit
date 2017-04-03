@@ -166,9 +166,10 @@ return [
         /*
          * Package Service Providers...
          */
-        Fit_tdc\Sample\SampleServiceProvider::class,
-        //
-
+        foostart\front\SampleServiceProvider::class,
+        
+        
+    
         /*
          * Application Service Providers...
          */
@@ -177,6 +178,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        
+        
 
     ],
 

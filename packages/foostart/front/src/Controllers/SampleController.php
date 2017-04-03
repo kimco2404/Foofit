@@ -1,6 +1,6 @@
 <?php
 
-namespace Fit_tdc\Sample\Controllers;
+namespace foostart\front\Controllers;
 
 use App\Http\Controllers\Controller;
 
@@ -8,6 +8,6 @@ class SampleController extends Controller
 {
     public function index(){
         
-        return view('sample::welcome');
+        return view('front::index');
     }
 }

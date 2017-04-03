@@ -1,6 +1,6 @@
 <?php
 
-namespace Fit_tdc\Sample;
+namespace foostart\front;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -12,9 +12,9 @@ class SampleServiceProvider extends ServiceProvider {
      * @return void
      */
     public function boot() {
-        $this->loadViewsFrom(__DIR__ . '/views/', 'sample');
+        $this->loadViewsFrom(__DIR__ . '/views/', 'front');
         $this->publishes([
-            __DIR__ . '/public' => public_path('sample'),
+            __DIR__ . '/public' => public_path('front'),
                 ], 'public');
     }
 
