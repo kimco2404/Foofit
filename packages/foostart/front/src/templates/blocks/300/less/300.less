@@ -1,0 +1,45 @@
+.type-300 {
+    @color_background: #003b7a;
+    @color_font: #fff;
+
+    footer {
+        background: @color_background;
+        color: @color_font;
+        padding: 30px 0;
+
+        .bottom-link {
+            list-style: none;
+            padding: 0 10px;
+            li {
+                border-bottom: 1px dotted #0060c5;
+                padding: 15px 0;
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    
+    /*-----------REPONSIVE------------*/
+    @media (min-width: 992px){
+        .intro{
+            padding: 0;
+        }
+    }
+    @media (max-width: 991px){
+        .footer-info{
+            padding-left: 10px;
+        }
+    }
+    @media (min-width: 768px){
+        .intro{
+            width: 960px;
+        }
+    }
+    @media (max-width: 480px){
+        .intro{
+            padding: 0;
+        }
+    }
+
+}

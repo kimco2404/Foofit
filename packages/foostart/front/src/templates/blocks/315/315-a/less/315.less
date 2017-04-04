@@ -1,0 +1,78 @@
+.type-315{
+    background: url(../images/bg_pattern.png) repeat;
+    .teacher{
+        .panel-heading {
+            border: none !important;
+            background: none !important;
+            padding: 20px 0 0;
+            h2 {
+                font-weight: 800;
+                font-size: 1.8em;
+                span {
+                    font-weight: normal;
+                    font-size: 1em;
+                }
+            }
+            p {
+                margin: 0 0 10px;
+            }
+        }
+        .profview {
+            text-align: center;
+            margin-top: 20px;
+            .profview_thumb {
+                padding: 8px;
+                background: url(../images/bg_cr_grey.png);
+                border-radius: 50%;
+            }
+            .profview_thumb_wrap {
+                overflow: hidden;
+                border-radius: 50%;
+                img {
+                    border-radius: 50%;
+                    transition: all 0.1s linear;
+                    display: block;
+                    max-width: 100%;
+                    height: auto;
+                }
+                
+            }
+            h4 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .prof_name{
+                a {
+                    font-family: 'Open Sans Condensed', sans-serif;
+                    color: #428bca;
+                    text-decoration: none;
+                }
+            }
+            .prof_name, .prof_title{
+                text-align: center;
+            }
+        }
+        .prof_list{
+            .profview:nth-child(4n+1) {
+                clear: both;
+            }
+        }
+    }
+    /*------REPONSIVE----------*/
+    @media (min-width: 992px){
+        .teacher{padding: 0;}
+    }
+    @media (min-width: 768px){
+        .teacher{
+            width: 960px;
+        }
+    }
+    @media (max-width: 480px){
+        .teacher{
+            padding: 0;
+        }
+    }
+    /*------END REPONSIVE----------*/
+}

@@ -8,6 +8,10 @@ class SampleController extends Controller
 {
     public function index(){
         
-        return view('front::index');
+        return view('front::home.index');
+    }
+    public function news(){
+        
+        return view('front::news.new');
     }
 }

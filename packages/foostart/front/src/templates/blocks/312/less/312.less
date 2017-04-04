@@ -1,0 +1,75 @@
+.type-312{
+    background-image: url(../images/bg_pattern.png);
+    .news{
+        padding: 0;
+        /*LIST VIEWS*/
+        .list_news {
+            margin-top: 45px;
+            .list_new_view {
+                margin-bottom: 15px;
+                background: #fff;
+                .top_news_block_thumb img {
+                    max-width: 100%;
+                    width: 100%;
+                    
+                }
+                .top_news_block_desc {
+                    font-size: 0.9em;
+                    padding: 15px;
+                    .topnewstime {
+                        margin-top: 12px;
+                        text-align: center;
+                        padding-left: 0;                      
+                        .topnewsdate {
+                            
+                            font-size: 3.1em;
+                            line-height: 1em;
+                            margin-left: 15px;
+                        }
+                        .topnewsmonth {
+                            text-transform: uppercase;
+                            font-size: 0.9em;
+                            margin-left: 15px;
+                        }
+                    }
+                    .shortdesc {
+                        border-left: 1px solid #666;
+                        padding-right: 30px;
+                        h4 {
+                            text-transform: uppercase;
+                            font-size: 18px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+        /*END LIST VIEWS*/
+        
+        /*PAGINATION*/
+        .pagination-centered {
+            text-align: center;
+        }
+        /*END PAGINATION*/
+    }
+    
+    /*-----REPONSIVE-----*/
+    @media (min-width: 768px){
+        .news{
+            width: 960px;
+        }
+    }
+    @media (max-width: 480px){
+        .news{
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    @media (min-width: 992px){
+        .row {
+            margin-left: -15px !important;
+            margin-right: -15px !important;
+        }
+    }
+    /*-----END REPONSIVE-----*/
+}

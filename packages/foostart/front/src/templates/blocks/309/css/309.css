@@ -1,0 +1,120 @@
+.type-309 {
+  background: url(../images/bg_pattern.png) repeat;
+  font-family: 'Open Sans', sans-serif;
+}
+.type-309 a:hover,
+.type-309 a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+.type-309 .panel {
+  background: none;
+  box-shadow: none;
+}
+.type-309 .panel-default {
+  border: none;
+}
+.type-309 .panel-heading {
+  border: none !important;
+  background: none !important;
+  padding: 20px 0 0;
+}
+.type-309 .panel-heading h2 {
+  font-weight: 800;
+  font-size: 1.8em;
+}
+.type-309 .panel-heading h2>span {
+  font-weight: normal;
+  font-size: 1em;
+}
+.type-309 .crossedbg {
+  background: url(../images/bg_cr_grey.png);
+  height: 15px;
+}
+.type-309 .partnerlogo {
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 25px;
+}
+.type-309 .partnerlogo img {
+  width: 100%;
+  max-width: 100%;
+  border: 1px #e0e0e0 solid;
+}
+.type-309 .partnerlogo:before,
+.type-309 .partnerlogo:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  top: 50%;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  border-radius: 100px/10px;
+}
+.type-309 .myImg2 {
+  display: none;
+}
+.type-309 .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: auto;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000;
+  background-color: rgba(0,0,0,0.9);
+}
+.type-309 .modal-content {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+.type-309 .caption {
+  display: block;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  font-size: 18px;
+}
+.type-309 .modal-content,
+.type-309 #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.type-309 .close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.type-309 .close:hover,
+.type-309 .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media (min-width: 992px) {
+  .type-309 .sidebar {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-309 .sidebar {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-309 .sidebar {
+    padding: 0;
+  }
+}
