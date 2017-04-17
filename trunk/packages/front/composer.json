@@ -1,0 +1,11 @@
+{
+    "name": "front/foofit",
+    "description": "Create Packages",
+    "authors": [
+        {
+            "name": "co",
+            "email": "kimco2404@gmail.com"
+        }
+    ],
+    "require": {}
+}
