@@ -1,0 +1,197 @@
+.type-302 {
+    .clear{clear: both;}
+    background-image: url('../images/bg_pattern.png');
+    .slideshow{
+        padding: 0;
+    }
+    /************************Content-SlideShow************************/
+    .content-slide-show {
+        position: relative;
+        bottom: 0%;
+        left: 0%;
+        text-align: center;
+        width: 70%;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        background: #f5ce31;
+
+        .subtitle {
+            font-weight: normal;
+            font-size: 1em;
+        }
+
+        h3 {
+            
+            font-size: 20px;
+            line-height: 1.2em;
+            margin-top:0px!important;
+            margin-bottom:0px!important;
+        }
+    }
+    
+/************************Slide-Active************************/
+    .swiper-slide-active {
+        .content-slide-show {
+                width: 100%!important;
+                -webkit-transition: width 1s;
+                -o-transition: width 1s;
+                -ms-transition: width 1s;
+                -moz-transition: width 1s;
+                transition: width 1s;
+            }
+    }
+
+/************************Hinh trước nội dung trong slideShow su dung before************************/
+    .content-slide-show::before {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        content: " ";
+        width: 15px;
+        background: url(../images/bg_cr_grey.png) repeat;
+        left: 0;
+    }
+
+    .swiper-container {
+        width: 100%;
+        
+        .swiper-wrapper {
+            height: auto!important;
+
+            .swiper-slide {
+                height: auto!important;
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+
+                img {
+                    width:100%;
+                }
+            }
+        }
+        .content-slide-show {
+            .title {
+                font-weight: bold;
+            }
+        }
+
+/***********************Pagination*************************/
+        .swiper-pagination-bullet-active {
+            background: #fff;
+        }
+
+        .swiper-pagination {
+            display: none;
+
+            .swiper-pagination-bullet {
+                margin:0px 2px;
+            }
+        }
+
+/***********************Button-Next-And-button-Prev*************************/
+        .swiper-button-next, .swiper-button-prev {
+            background:#fff;
+            width: 20px;
+            height: 40px;
+            -webkit-transition: width 0.2s;
+            -o-transition: width 0.2s;
+            -ms-transition: width 0.2s;
+            -moz-transition: width 0.2s;
+            transition: width 0.2s;
+        }
+
+        .swiper-button-prev {
+            left: 0px;
+            border-bottom-right-radius: 7px;
+            border-top-right-radius: 7px;
+
+            .btn-prev {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                color: #000;
+                font-size: 0.95em;
+            }
+        }
+
+        .swiper-button-next {
+            right: 0px;
+            border-bottom-left-radius: 7px;
+            border-top-left-radius: 7px;
+
+            .btn-next {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                color: #000;
+                font-size: 0.95em;
+            }
+        }
+
+        .swiper-button-next:hover {
+            width:29px!important;
+            transition-timing-function: linear;
+            -moz-transition-timing-function: linear;
+            -webkit-transition-timing-function: linear;
+            -sm-transition-timing-function: linear;
+            -o-transition-timing-function: linear;
+        }
+
+        .swiper-button-prev:hover {
+            width:29px!important;
+            transition-timing-function: linear;
+            -moz-transition-timing-function: linear;
+            -webkit-transition-timing-function: linear;
+            -sm-transition-timing-function: linear;
+            -o-transition-timing-function: linear;
+        }
+    }
+
+/***********************Reponsive*************************/
+    @media(min-width: 768px)
+    {
+        .slideshow{width: 960px;}
+        .content-slide-show {
+            width: 340px!important;
+            opacity: 0;
+            left: -50px;
+        }
+        .swiper-pagination {
+            display: block!important;
+        }
+        .content-slide-show {
+            position: absolute!important;
+        }
+
+        .swiper-slide-active {
+            .content-slide-show {
+                opacity: 1!important;
+                width: 340px!important;
+                left: 0px;
+                -o-transition: left 1.35s, opacity 0.5s;
+                -sm-transition: left 1.35s, opacity 0.5s;
+                -moz-transition: left 1.35s, opacity 0.5s;
+                transition: left 1.35s, opacity 0.5s;
+            }
+        }
+    }
+    @media (max-width: 768px){
+        
+    }
+    @media (max-width: 478px){
+        .swiper-button-next, .swiper-button-prev{
+            display: none
+        }
+    }
+}
+

@@ -1,0 +1,33 @@
+@extends('front::layouts.trangchu.masterpage.masterpage')
+
+@section('head')
+    @include('front::layouts.trangchu.masterpage.head')
+@stop
+
+@section('header-top')
+    @include('front::modules.342')
+@stop
+@section('menu')
+    @include('front::modules.343')
+@stop
+@section('302')
+    @include('front::modules.302') 
+@stop
+@section('304')
+    @include('front::modules.304')
+@stop
+@section('309')
+    @include('front::modules.309')
+@stop
+@section('307') 
+    @include('front::modules.307')
+@stop
+@section('313') 
+    @include('front::modules.313')
+@stop
+@section('335')
+    @include('front::modules.335')
+@stop
+@section('footer')
+    @include('front::modules.300')
+@stop 

@@ -1,0 +1,19 @@
+.type-304 {
+  background: url(../images/bg_pattern.png) repeat;
+  font-family: 'Open Sans', sans-serif;
+}
+@media (min-width: 992px) {
+  .type-304 .sidebar {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-304 .sidebar {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-304 .sidebar {
+    padding: 0;
+  }
+}

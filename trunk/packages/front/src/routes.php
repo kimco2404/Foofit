@@ -40,6 +40,9 @@ Route::get('/brochure',  [
     'as' => 'brochure',
     'uses' =>'Front\Controllers\FrontController@brochure'
 ]);
-
+Route::get('/index',  [
+    'as' => '',
+    'uses' =>'Front\Controllers\FrontController@laydata'
+]);
 
 

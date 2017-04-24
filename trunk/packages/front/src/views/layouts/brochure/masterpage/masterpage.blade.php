@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>@yield('title')</title>
+        @yield('head')
+    </head>
+    <body>
+        @yield('header-top')
+        @yield('menu')
+        @yield('341')
+        @yield('footer')
+    </body>
+</html>

@@ -13,19 +13,24 @@ class FrontServiceProvider extends ServiceProvider {
      * @return void
      */
     public function boot(Request $request) {
+
         /**
          * Publish
          */
         $this->publishes([
             __DIR__ . '/public' => public_path('front'),
                 ], 'public');
+        /**
+         * Model
+
+
+          /**
+         * Register any application services.
+         *
+         * @return void
+         */
     }
 
-    /**
-     * Register any application services.
-     *
-     * @return void
-     */
     public function register() {
         //
         include __DIR__ . '/routes.php';
