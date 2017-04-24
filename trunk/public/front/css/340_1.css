@@ -1,0 +1,210 @@
+.type-340 {
+  background-image: url(../images/bg_pattern.png);
+}
+@media (min-width: 1200px) {
+  .type-340 .container {
+    max-width: 960px;
+    padding: 0;
+  }
+}
+.type-340 .ready {
+  padding-top: 10px;
+}
+.type-340 .tabs {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.type-340 .tabs * {
+  transition: all 350ms cubic-bezier(.7,.5,.3,1);
+}
+.type-340 .tabs li {
+  margin-right: 1px;
+  counter-increment: tab;
+  perspective: 350px;
+  float: left;
+  height: 90px;
+  opacity: 0;
+  position: relative;
+  transform-origin: 50% 0;
+  transform: translateY(400px);
+  transition: all 600ms cubic-bezier(.3,.7,.1,1);
+  width: 49.7%;
+  vertical-align: top;
+}
+.type-340 .tab3 li {
+  width: 33%;
+}
+.type-340 .tabs li:nth-child(2) {
+  transition-delay: 150ms;
+}
+.type-340 .tabs li:nth-child(3) {
+  transition-delay: 300ms;
+}
+.type-340 .ready .tabs li {
+  opacity: 1;
+  transform: translateY(0);
+}
+.type-340 .tabs li .fold {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+.type-340 .tabs li h3 {
+  backface-visibility: hidden;
+  background: #e0593e;
+  color: #FFF;
+  font-size: 13px;
+  line-height: 50px;
+  margin: 0;
+  height: 50px;
+  text-transform: uppercase;
+}
+.type-340 .tabs li h3:before {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-origin: content-box;
+  background-size: contain;
+  border: 2px solid rgba(255,255,255,0.2);
+  border-radius: 100%;
+  color: rgba(255,255,255,0.6);
+  content: counter(tab);
+  display: block;
+  float: left;
+  font-size: 12px;
+  font-weight: 400;
+  height: 24px;
+  line-height: 25px;
+  margin: 10px 10px 0 10px;
+  text-align: center;
+  width: 24px;
+}
+.type-340 li .fold p {
+  backface-visibility: hidden;
+  background: #222;
+  color: #222;
+  font-size: 12px;
+  line-height: 140%;
+  height: 100px;
+  margin: -1px 0 0;
+  padding: 5px 15px 15px;
+  transform: rotateX(-60deg);
+  transform-origin: 50% 0;
+}
+.type-340 .tabs li .more {
+  backface-visibility: hidden;
+  background: #EAEAEA;
+  bottom: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  box-shadow: inset 0 4px 2px -3px rgba(0,0,0,0.3);
+  color: #3A3F41;
+  font-size: 11px;
+  font-weight: bold;
+  height: 40px;
+  left: 0;
+  line-height: 43px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  padding: 0 15px;
+  width: 100%;
+}
+.type-340 .tabs li:before,
+.type-340 .tabs li:after {
+  background: #444;
+  backface-visibility: hidden;
+  content: '';
+  display: block;
+  width: 2px;
+  height: 6px;
+  position: absolute;
+  transform-origin: 50% 50%;
+  z-index: 2;
+}
+.type-340 .tabs li:before {
+  bottom: 19px;
+  right: 20px;
+  transform: rotate(-45deg);
+}
+.type-340 .tabs li:after {
+  bottom: 15px;
+  right: 20px;
+  transform: rotate(45deg);
+}
+.type-340 .tabs li:hover .fold {
+  transform: translateY(-75px);
+}
+.type-340 .tabs li:hover h3 {
+  background: #3d9fab;
+}
+.type-340 .tabs li:hover .more {
+  color: #111;
+}
+.type-340 li:hover .fold p {
+  transform: rotateX(0deg);
+  background: #3d9fab;
+  color: #fff;
+  outline: 1px solid transparent;
+}
+.type-340 li:hover:before,
+.type-340 li:hover:after {
+  background: #111;
+}
+.type-340 header.section-heading {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  margin: 50px 0;
+}
+.type-340 header.section-heading div {
+  display: table-row;
+  line-height: 1.5em;
+  font-size: 2em;
+  white-space: nowrap;
+}
+.type-340 header.section-heading h2 {
+  font-size: inherit;
+  overflow: hidden;
+  display: table-cell;
+  width: 1px;
+  table-layout: fixed;
+  font-weight: bold;
+  color: #333;
+}
+.type-340 header.section-heading span.spacer {
+  display: table-cell;
+}
+.type-340 header.section-heading h2 {
+  padding: 0 10px;
+}
+.type-340 header.section-heading span.spacer:after {
+  display: inline-block;
+  width: 100%;
+  content: ".";
+  font-size: 0;
+  color: transparent;
+  height: 4px;
+  background: #333;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+.type-340 header.section-heading > a {
+  font-size: .4em;
+  vertical-align: middle;
+  background: #25a2a4;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: monospace;
+  border-radius: .5em;
+  padding: .3em .5em;
+  text-decoration: none;
+}
+@media (max-width: 480px) {
+  .type-340 .tuyen-sinh {
+    padding: 0;
+  }
+  .type-340 .tabs li {
+    width: 100%;
+    margin: 15px 0;
+  }
+}

@@ -1,0 +1,201 @@
+.type-305{
+    @color_hover: #2a6496;
+    @color_border_gray: #d9d9d9;
+
+    background: url(../images/bg_pattern.png) repeat;
+    font-family: 'Open Sans', sans-serif;
+
+    a:hover, a:focus {
+        color: @color_hover;
+        text-decoration: underline;
+    }
+    .event{
+        padding: 0;
+    }
+    .eventlocation {
+        font-size: 13px;
+    }
+    /*------------------GENERAL--------------------*/
+    .panel {
+        background: none;
+        box-shadow: none;
+    }
+    .panel-default {
+        border: none;
+    }   
+    .panel-heading {
+        border: none !important;
+        background: none !important;
+        padding: 20px 0 0;
+        h2 {
+            font-weight: 800;
+            font-size: 1.8em;
+        }
+        h2>span {
+            font-weight: normal;
+            font-size: 1em;
+        }
+    }
+    .crossedbg {
+        background: url(../images/bg_cr_grey.png);
+        height: 15px;
+    }
+    /*------------------END GENERAL--------------------*/
+
+    /*------------------TOP EVENTS TIMELINE--------------------*/
+    .bodytimeline {
+        padding: 0;
+        background: none;
+    }
+    .timeline {
+        list-style: none;
+        padding: 20px 0 20px;
+        position: relative;
+
+        .eventtime {
+            width: 56px;
+            height: 56px;
+            background: #f5ce31;
+            border-radius: 50%;
+            position: relative;
+            color: #4e4e4e;
+            float: left;
+            .eventtimecover {
+                position: absolute;
+                top: 9px;
+                left: 10px;
+            }
+            .eventdm {
+                float: left;
+            }
+            .eventday {
+                font-weight: bold;
+                font-size: 1.5em;
+                border-bottom: 1px #4e4e4e solid;
+                line-height: 1em;
+            }
+            .eventmonth {
+                text-align: center;
+            }
+            .eventyear {
+                float: left;
+                margin-top: 14px;
+            }
+        }
+        .eventdetails {
+            text-align: right;
+            float: right;
+            width: 59%;
+            margin-top: 7px;
+            .eventlocation {
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-weight: bold;
+            }
+            .eventdesc {
+                margin-top: 15px;
+            }
+        }
+    }
+    .timeline:before {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        content: " ";
+        width: 2px;
+        background-color: @color_border_gray;
+        left: 50%;
+        margin-left: -1.5px;
+    }
+    .timeline > li {
+        position: relative;
+    }
+    .timeline > li:after {
+        clear: both;
+    }
+    .timeline > li:before, .timeline > li:after {
+        content: " ";
+        display: table;
+    }
+    .timeline > li > .timeline-badge {
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        top: 19px;
+
+        margin-left: -10px;
+        background-color: #fff;
+        border: 2px solid @color_border_gray;
+        border-radius: 50%;
+        z-index: 5;
+    }
+    .timeline > li > .timeline-panel {
+        /*        width: 46%;*/
+        float: left;
+        position: relative;
+    }
+    .timeline > li > .timeline-panel:before {
+        position: absolute;
+        top: 27px;
+        right: -15px;
+        display: inline-block;
+        border-top: 1px solid @color_border_gray;
+        content: " ";
+        width: 100%;
+    }
+    /*------------------/END TOP EVENTS TIMELINE--------------------*/
+    /*--------Reponsive--------*/
+    @media (min-width: 768px){
+        .event{
+            width: 960px;
+        }
+        .timeline-badge{
+            left: 50%;
+        }
+        .timeline-panel {
+            width: 46%;
+        }
+        .timeline{
+            margin: 0;
+        }
+    }
+    @media (max-width: 767px) {
+        .timeline{
+            margin-right: 50px;
+        }
+        .timeline-panel {
+            width: 100%;
+        }
+        .timeline-badge{
+            left: 20px;
+        }
+        .timeline > li {margin-bottom: 15px;}
+        ul.timeline:before {
+            left: 20px;
+        }
+        ul.timeline > li > .timeline-panel {
+
+            padding-left: 40px;
+        }
+        ul.timeline > li > .timeline-panel:before {
+            border-left-width: 0;
+            border-right-width: 15px;
+            left: 10px;
+            right: auto;
+        }
+        .timeline .eventtime {
+            float: right;
+        }
+        .timeline .eventdetails {
+            text-align: left;
+            float: left;
+        }
+        .panel-default{
+            padding: 0 15px;
+        }
+    }
+    @media (max-width: 480px){
+        .panel-default{
+            padding: 0;
+        }
+    }
+}

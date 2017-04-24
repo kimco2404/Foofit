@@ -1,0 +1,33 @@
+@extends('front::layouts.giangvien.masterpage.masterpage')
+
+@section('head')    
+    @include('front::layouts.giangvien.masterpage.head')
+@stop
+
+@section('header-top')
+    @include('front::modules.342')
+@stop
+@section('menu')
+    @include('front::modules.343')
+@stop
+@section('314')
+    @include('front::modules.314')
+@stop
+@section('315')
+    @include('front::modules.315')
+@stop
+@section('316')
+    @include('front::modules.316')
+@stop
+@section('317')
+    @include('front::modules.317')
+@stop
+@section('318')
+    @include('front::modules.318')
+@stop
+@section('319')
+    @include('front::modules.319')
+@stop
+@section('footer')
+    @include('front::modules.300')
+@stop

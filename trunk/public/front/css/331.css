@@ -1,0 +1,67 @@
+.type-331 {
+  background: url(../images/bg_pattern.png) repeat;
+  font-family: 'Open Sans', sans-serif;
+}
+.type-331 a:hover,
+.type-331 a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+.type-331 .panel {
+  background: none;
+  box-shadow: none;
+}
+.type-331 .panel-default {
+  border: none;
+}
+.type-331 .panel-heading {
+  border: none !important;
+  background: none !important;
+  padding: 20px 0 0;
+}
+.type-331 .panel-heading h2 {
+  font-weight: 800;
+  font-size: 1.8em;
+}
+.type-331 .panel-heading h2>span {
+  font-weight: normal;
+  font-size: 1em;
+}
+.type-331 .crossedbg {
+  background: url(../images/bg_cr_grey.png);
+  height: 15px;
+}
+.type-331 .panel-body {
+  background: #fff;
+}
+.type-331 address {
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 1.42857143;
+}
+.type-331 .itdcadd {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+.type-331 .itdcadd li {
+  margin: 10px 0;
+}
+.type-331 #map-canvas {
+  height: 450px;
+}
+@media (min-width: 992px) {
+  .type-331 .address {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-331 .address {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-331 .address {
+    padding: 0;
+  }
+}

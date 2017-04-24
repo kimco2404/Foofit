@@ -1,0 +1,40 @@
+.type-328 {
+  background-image: url('../images/bg_pattern.png');
+}
+.type-328 .panel-default {
+  border: none;
+}
+.type-328 .panel-default .panel-heading {
+  color: #333;
+  border-color: #ddd;
+  border: none !important;
+  background: none !important;
+  padding: 20px 0 0;
+}
+.type-328 .panel-default .panel-heading h2 {
+  font-weight: 800;
+  font-size: 1.8em;
+}
+.type-328 .panel-default .panel-heading span {
+  font-weight: normal;
+  font-size: 1em;
+}
+.type-328 .panel-default .crossedbg {
+  background: url(../images/bg_cr_grey.png);
+  height: 15px;
+}
+.type-328 .panel-default .panel-body {
+  background: #fff;
+}
+.type-328 .panel-default .panel-body strong {
+  font-weight: 700;
+}
+.type-328 .panel {
+  background: none;
+  box-shadow: none;
+}
+@media (min-width: 768px) {
+  .type-328 .bio {
+    width: 960px;
+  }
+}

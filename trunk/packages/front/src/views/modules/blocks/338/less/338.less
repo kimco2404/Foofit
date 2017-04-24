@@ -1,0 +1,39 @@
+.type-338{
+    
+    @color_backgroud: #f5ce31;
+    background: url(../images/bg_pattern.png) repeat;
+    #catenav {
+        background: @color_backgroud;
+        margin: 55px 0 25px;
+        h4 {
+            font-size: 1em;
+            padding: 15px 0;
+            margin: 0;
+            line-height: 20px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        a {
+            color: #000;
+        }
+    }
+    
+    /*--REPONSIVE--*/
+    @media (min-width: 768px){
+        .special{
+            width: 960px;
+        }
+        .navbar-nav {
+            padding: 0;
+        }
+        .auto-width {
+            width: auto;
+        }
+        
+    }
+    @media (max-width: 768px){
+        .navbar-nav {
+            padding: 0 15px;
+        }
+    }
+}

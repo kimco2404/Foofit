@@ -1,0 +1,72 @@
+.type-315 {
+  background: url(../images/bg_pattern.png) repeat;
+}
+.type-315 .teacher .panel-heading {
+  border: none !important;
+  background: none !important;
+  padding: 20px 0 0;
+}
+.type-315 .teacher .panel-heading h2 {
+  font-weight: 800;
+  font-size: 1.8em;
+}
+.type-315 .teacher .panel-heading h2 span {
+  font-weight: normal;
+  font-size: 1em;
+}
+.type-315 .teacher .panel-heading p {
+  margin: 0 0 10px;
+}
+.type-315 .teacher .profview {
+  text-align: center;
+  margin-top: 20px;
+}
+.type-315 .teacher .profview .profview_thumb {
+  padding: 8px;
+  background: url(../images/bg_cr_grey.png);
+  border-radius: 50%;
+}
+.type-315 .teacher .profview .profview_thumb_wrap {
+  overflow: hidden;
+  border-radius: 50%;
+}
+.type-315 .teacher .profview .profview_thumb_wrap img {
+  border-radius: 50%;
+  transition: all 0.1s linear;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.type-315 .teacher .profview h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.type-315 .teacher .profview .prof_name a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #428bca;
+  text-decoration: none;
+}
+.type-315 .teacher .profview .prof_name,
+.type-315 .teacher .profview .prof_title {
+  text-align: center;
+}
+.type-315 .teacher .prof_list .profview:nth-child(4n+1) {
+  clear: both;
+}
+@media (min-width: 992px) {
+  .type-315 .teacher {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-315 .teacher {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-315 .teacher {
+    padding: 0;
+  }
+}

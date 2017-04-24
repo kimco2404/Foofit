@@ -1,0 +1,83 @@
+.type-326 {
+  background: url(../images/bg_pattern.png) repeat;
+  font-family: 'Open Sans', sans-serif;
+}
+.type-326 a:hover,
+.type-326 a:focus {
+  color: #2a6496;
+}
+.type-326 .headlines {
+  background: #fff;
+  overflow: hidden;
+  padding: 20px 30px;
+}
+.type-326 .headlines a {
+  color: #000;
+}
+.type-326 .headlines ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.type-326 .headlines ul li {
+  overflow: hidden;
+  display: table;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.type-326 .headlines ul li .headlinestitle {
+  display: table-cell;
+  vertical-align: middle;
+  width: 85%;
+}
+.type-326 .headlines .headlinesdate {
+  font-size: 0.8em;
+  width: 15%;
+  min-width: 55px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.type-326 .headlines .headlinesday {
+  border-bottom: 1px solid #000;
+}
+.type-326 .headlines .headlinesyear {
+  line-height: 3.5em;
+  float: left;
+  margin-left: 3px;
+}
+.type-326 .headlinesdate .headlinesdm,
+.type-326 .headlinesdate {
+  float: left;
+  font-family: 'Prata', serif;
+}
+.type-326 .headlinesdate .headlinesday,
+.type-326 .headlines .headlinesmonth {
+  line-height: 1.7em;
+}
+.type-326 .pagination-center {
+  text-align: center;
+}
+.type-326 .pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.type-326 .pagination li {
+  display: inline;
+}
+@media (min-width: 992px) {
+  .type-326 .sidebar {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .type-326 .sidebar {
+    width: 960px;
+  }
+}
+@media (max-width: 480px) {
+  .type-326 .sidebar {
+    padding: 0;
+  }
+}

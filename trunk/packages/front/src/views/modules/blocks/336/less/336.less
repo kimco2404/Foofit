@@ -1,0 +1,90 @@
+.type-336 {
+
+    @color_hover: #2a6496;
+    @color_border_gray: #d9d9d9;
+
+    background: url(../images/bg_pattern.png) repeat;
+    font-family: 'Open Sans', sans-serif;
+
+    a:hover, a:focus {
+        color: @color_hover;
+        text-decoration: underline;
+    }
+
+    /*------------------GENERAL--------------------*/
+    .panel {
+        background: none;
+        box-shadow: none;
+    }
+    .panel-default {
+        border: none;
+    }   
+    .panel-heading {
+        border: none !important;
+        background: none !important;
+        padding: 20px 0 0;
+        h2 {
+            font-weight: 800;
+            font-size: 1.8em;
+        }
+        h2>span {
+            font-weight: normal;
+            font-size: 1em;
+        }
+    }
+    .crossedbg {
+        background: url(../images/bg_cr_grey.png);
+        height: 15px;
+    }
+    /*------------------END GENERAL--------------------*/
+
+    /*------------------TOP WORKS & TOP ALUMNUS--------------------*/
+    .panel-body {
+        background: #fff;
+    }
+    .list-group {
+        list-style: disc;
+        margin-bottom: 0;
+    }
+    .list-group-item {
+        border: none;
+        border-bottom: 1px @color_border_gray solid;
+        margin-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 15px;
+    }
+    .list-group-item:first-child {
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+    }
+    .list-group-item:before {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #f5ce31;
+        content: "\2022";
+        font-size: 2em;
+        padding-right: .5em;
+        position: relative;
+        top: .15em;
+    }
+    .list-group-item:last-child {
+        border: none;
+    }
+    /*------------------END TOP WORKS & TOP ALUMNUS--------------------*/
+    /*---------------REPONSIVE------------*/
+    @media (min-width: 992px){
+        .sidebar{
+            padding: 0;
+        }
+    }
+    @media (min-width: 768px){
+        .sidebar{
+            width: 960px;
+        }
+    }
+    @media (max-width: 480px){
+        .sidebar{
+            padding: 0;
+        }
+    }
+}

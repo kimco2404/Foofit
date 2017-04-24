@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>@yield('title')</title>
+        @yield('head')
+    </head>
+    <body>
+        @yield('header-top')
+        @yield('menu')
+        @yield('314')
+        @yield('315')
+        @yield('316')
+        @yield('317')
+        @yield('318')
+        @yield('319')
+        @yield('footer')
+    </body>
+</html>
