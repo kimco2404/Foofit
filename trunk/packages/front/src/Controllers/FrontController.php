@@ -10,7 +10,7 @@ class FrontController extends Controller {
     public $student = null;
 
     public function index() {
-        return view('front::layouts.trangchu.trangchu');
+        return view('front::pages.trangchu.trangchu');
     }
 
     public function tuyensinh() {
