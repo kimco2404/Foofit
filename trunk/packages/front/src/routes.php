@@ -1,6 +1,6 @@
 <?php
 
-Route::get('/trang-chu',  [
+Route::get('/',  [
     'as' => 'trangchu',
     'uses' =>'Front\Controllers\FrontController@index'
 ]);
