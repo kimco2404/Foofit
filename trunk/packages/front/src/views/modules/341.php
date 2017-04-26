@@ -9,7 +9,7 @@
                     <!-- Previous button -->
                 </div>
 
-                <div class="flipbook-viewport" style="background:url('front/images/iTDCcatalog_print1.jpg');">
+                <div class="flipbook-viewport" style="background:url('');">
                     <div class="container_mag">
                         <div class="flipbook">
                             <div style="background-image:url(front/images/iTDCcatalog_print1.jpg)"></div>

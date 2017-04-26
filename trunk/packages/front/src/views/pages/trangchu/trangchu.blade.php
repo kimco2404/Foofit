@@ -1,4 +1,7 @@
 @extends('front::layouts.layout')
+@section('title')
+<title>Home</title>
+@endsection
 
 @section('css')
 <link rel="stylesheet" href="{{asset('front/css/bootstrap.min.css')}}"/>
@@ -19,10 +22,9 @@
 @stop
 
 @section('content')
-@include('front::modules.343')
 @include('front::modules.342')    
+@include('front::modules.343')
 @include('front::modules.302')
-@include('front::modules.304')
 @include('front::modules.307')
 @include('front::modules.300')
 @endsection

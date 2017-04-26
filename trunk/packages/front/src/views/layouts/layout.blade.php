@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>App Name - @yield('title')</title>
+        @yield('title')
         @yield('css')
         @yield('scripts')
     </head>

@@ -16,8 +16,8 @@ Route::get('/dao-tao',  [
     'as' => 'daotao',
     'uses' =>'Front\Controllers\FrontController@daotao'
 ]);
-Route::get('/giang-vien',  [
-    'as' => 'giangvien',
+Route::get('/nhan-su',  [
+    'as' => 'nhansu',
     'uses' =>'Front\Controllers\FrontController@giangvien'
 ]);
 Route::get('/gioi-thieu',  [

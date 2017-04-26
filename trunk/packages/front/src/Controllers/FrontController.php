@@ -14,45 +14,45 @@ class FrontController extends Controller {
     }
 
     public function tuyensinh() {
-        return view('front::layouts.tuyensinh.tuyensinh');
+        return view('front::pages.tuyensinh.tuyensinh');
     }
 
     public function sinhvien() {
-        return view('front::layouts.sinhvien.sinhvien');
+        return view('front::pages.sinhvien.sinhvien');
     }
 
     public function lienhe() {
-        return view('front::layouts.lienhe.lienhe');
+        return view('front::pages.lienhe.lienhe');
     }
 
     public function tintuc() {
-        return view('front::layouts.tintuc.tintuc');
+        return view('front::pages.tintuc.tintuc');
     }
 
     public function gioithieu() {
-        return view('front::layouts.gioithieu.gioithieu');
+        return view('front::pages.gioithieu.gioithieu');
     }
 
     public function giangvien() {
-        return view('front::layouts.giangvien.giangvien');
+        return view('front::pages.giangvien.giangvien');
     }
 
     public function daotao() {
-        return view('front::layouts.daotao.daotao');
+        return view('front::pages.daotao.daotao');
     }
 
     public function chuyende() {
-        return view('front::layouts.chuyende.chuyende');
+        return view('front::pages.chuyende.chuyende');
     }
 
     public function brochure() {
-        return view('front::layouts.brochure.brochure');
+        return view('front::pages.brochure.brochure');
     }
 
     public function laydata() {
         $this->student = new front();
         $student = $this->student->showdata();
-        return view('front::layouts.index')->with('student', $student);
+        return view('front::pages.index')->with('student', $student);
     }
 
 }

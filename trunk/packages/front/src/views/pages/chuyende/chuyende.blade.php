@@ -1,19 +1,23 @@
-@extends('front::layouts.chuyende.masterpage.masterpage')
+@extends('front::layouts.layout')
 
-@section('head')    
-    @include('front::layouts.chuyende.masterpage.head')
-@stop
-
-@section('header-top')
-    @include('front::modules.342')
-@stop
-@section('menu')
-    @include('front::modules.343')
+@section('css')
+<link rel="stylesheet" href="{{asset('front/css/bootstrap.min.css')}}"/>
+<link rel="stylesheet" href="{{asset('front/css/font-awesome.min.css')}}"/>
+<link rel="stylesheet" href="{{asset('front/css/343.css')}}"/>
+<link rel="stylesheet" href="{{asset('front/css/300.css')}}"/>
+<link rel="stylesheet" href="{{asset('front/css/341.css')}}"/>
+<link rel="stylesheet" href="{{asset('front/css/342.css')}}"/>
 @stop
 
-@section('319')
-    @include('front::modules.319')
+@section('script')
+<script src="{{ asset('front/js/jquery-2.1.4.min.js') }}"></script>
+<script src="{{ asset('front/js/bootstrap.min.js') }}"></script>
 @stop
-@section('footer')
-    @include('front::modules.300')
-@stop
+
+@section('content')
+@include('front::modules.342')
+@include('front::modules.343')
+@include('front::modules.341')
+@include('front::modules.300')
+@endsection
+
