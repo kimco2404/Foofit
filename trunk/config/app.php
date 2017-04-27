@@ -145,6 +145,9 @@ return [
          */
         Laravel\Tinker\TinkerServiceProvider::class,
         Front\FrontServiceProvider::class,
+        Contact\ContactServiceProvider::class,
+        Slideshow\SlideshowServiceProvider::class,
+        Post\PostServiceProvider::class,
         LaravelAcl\Authentication\AuthenticationServiceProvider::class,
         /*
          * Application Service Providers...
