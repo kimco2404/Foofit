@@ -2,7 +2,7 @@
     <head>
         @yield('title')
         @yield('css')
-        @yield('scripts')
+        @yield('script')
     </head>
     <body>
         @yield('content')

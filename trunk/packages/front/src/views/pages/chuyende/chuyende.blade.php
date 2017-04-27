@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="{{asset('front/css/font-awesome.min.css')}}"/>
 <link rel="stylesheet" href="{{asset('front/css/343.css')}}"/>
 <link rel="stylesheet" href="{{asset('front/css/300.css')}}"/>
-<link rel="stylesheet" href="{{asset('front/css/341.css')}}"/>
+<link rel="stylesheet" href="{{asset('front/css/319.css')}}"/>
 <link rel="stylesheet" href="{{asset('front/css/342.css')}}"/>
 @stop
 
@@ -17,7 +17,7 @@
 @section('content')
 @include('front::modules.342')
 @include('front::modules.343')
-@include('front::modules.341')
+@include('front::modules.319')
 @include('front::modules.300')
 @endsection
 

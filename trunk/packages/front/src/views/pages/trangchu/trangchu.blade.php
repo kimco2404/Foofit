@@ -6,11 +6,12 @@
 @section('css')
 <link rel="stylesheet" href="{{asset('front/css/bootstrap.min.css')}}"/>
 <link rel="stylesheet" href="{{asset('front/css/font-awesome.min.css')}}"/>
+<link rel="stylesheet" href="{{asset('front/css/342.css')}}"/>
+<link rel="stylesheet" href="{{asset('front/css/343.css')}}"/>
 <link rel="stylesheet" href="{{asset('front/css/402.css')}}"/>
-<link rel="stylesheet" href="{{asset('front/css/335.css')}}"/>
-<link rel="stylesheet" href="{{asset('front/css/313.css')}}"/> 
+<link rel="stylesheet" href="{{asset('front/css/302.css')}}"/>
 <link rel="stylesheet" href="{{asset('front/css/307.css')}}"/> 
-<link rel="stylesheet" href="{{asset('front/css/304.css')}}"/> 
+<link rel="stylesheet" href="{{asset('front/css/300.css')}}"/> 
 <link rel="stylesheet" href="{{asset('front/css/swiper.min.css') }}"/>
 @stop
 
