@@ -12,11 +12,11 @@
         <!--MENU-->
         <div class="menu">
             <ul class="nav-menu collapse">
-                <li class="item active"><a href="#"> Trang Chủ </a></li>
-                <li class="item"><a href="#"> Giới Thiệu </a></li>
-                <li class="item"><a href="#"> Tuyển Sinh </a></li>
-                <li class="item"><a href="#"> Brochure </a></li>
-                <li class="item"><a href="#"> Liên Hệ </a></li>
+                <li class="item active"><a href="trang-chu"> Trang Chủ </a></li>
+                <li class="item"><a href="gioi-thieu"> Giới Thiệu </a></li>
+                <li class="item"><a href="tuyen-sinh"> Tuyển Sinh </a></li>
+                <li class="item"><a href="brochure"> Brochure </a></li>
+                <li class="item"><a href="lien-he"> Liên Hệ </a></li>
                 <div class="clear"></div>
             </ul>
             <div class="clear"></div>

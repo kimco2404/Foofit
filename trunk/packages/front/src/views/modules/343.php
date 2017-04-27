@@ -19,11 +19,11 @@
             </div>
             <div class="navbar-collapse ">  
                 <ul class="nav navbar-nav navbar-right collapse"> 
-                    <li class="item active"><a href="#">TIN TỨC</a></li>
-                    <li class="item"><a href="#">GIẢNG VIÊN</a></li>
-                    <li class="item"><a href="#">SINH VIÊN</a></li>
-                    <li class="item"><a href="#">CHUYÊN ĐỀ</a></li>
-                    <li class="item"><a href="#">ĐÀO TẠO</a></li>
+                    <li class="item active"><a href="tin-tuc">TIN TỨC</a></li>
+                    <li class="item"><a href="nhan-su">GIẢNG VIÊN</a></li>
+                    <li class="item"><a href="sinh-vien">SINH VIÊN</a></li>
+                    <li class="item"><a href="chuyen-de">CHUYÊN ĐỀ</a></li>
+                    <li class="item"><a href="dao-tao">ĐÀO TẠO</a></li>
                 </ul>
             </div>
             <!--END MAIN MENU-->              
